@@ -1,0 +1,180 @@
+
+/* ---------- SLOGAN ---------- */
+.slogan {
+  text-align: center;
+  padding: 80px 25px; /* cima/baixo = 80, lados = 25*/
+  border-bottom: 1px solid rgba(197, 157, 95, 0.1);
+}
+
+.slogan-tag {
+  font-size: 11px;
+  font-weight: 700; /*NEGRITO*/
+  letter-spacing: 3px; /* espaçamento entre letras */
+  text-transform: uppercase; /* transforma todo o texto em maiúsculas */
+  color: #c59d5f;
+  margin: 0 0 20px;
+}
+
+.slogan-titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 400; /*NEGRITO*/
+  color: #f0e6d3;
+  margin: 0 0 36px; /*Topo, lados e baixo*/
+  line-height: 1.3; /* espaçamento entre linhas */
+}
+
+/* ---------- SEÇÕES ---------- */
+.secao {
+  text-align: center;
+  padding: 70px 24px; /* distancia pela escrita das horizontais/verticais */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04); /*funciona somente nos serviços e horario de atend. os demais tem outros*/
+}
+
+/* ---------- CARROSSEL ---------- */
+.secao-carrossel {
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04); 
+}
+
+.carrossel-geral {
+  width: 90%;
+  max-width: 560px;
+  margin: 0 auto; /* auto = centraliza horizontalmente */
+  padding: 0; /* alguns navegadores aplicam padding no figure */
+}
+
+.carrossel {
+  position: relative; /* referência para os botões absolutos */
+  border-radius: 16px; /* cantos arredondados */
+  overflow: hidden; /* imagem não vaza fora do border-radius */
+  border: 1px solid rgba(197, 157, 95, 0.3);
+}
+
+#moldura {
+  width: 100%; /* ocupa toda a largura do carrossel */
+  aspect-ratio: 1 / 1; /* força formato quadrado */
+  display: block; /* remove espaço extra abaixo da imagem */
+}
+
+.carrossel-btn {
+  position: absolute; /* posicionado em relação ao .carrossel */
+  top: 50%; /* começa no meio vertical */
+  transform: translateY(-50%); /* ajusta pro centro exato */
+  background: rgba(14, 14, 14, 0.7);
+  border: 1px solid rgba(197, 157, 95, 0.4);
+  color: #c59d5f;
+  width: 38px; /* arredondar */
+  height: 38px; /* arredondar */
+  border-radius: 50%; /* arredondar */
+  cursor: pointer; /* muda o sensor do mouse pra clique */
+  font-size: 16px;
+  transition: background 0.3s; /* animação no hover */
+  z-index: 2; /* fica acima da imagem */
+}
+
+.carrossel-btn.volt { left: 12px; } /* botão na esquerda */
+.carrossel-btn.prox { right: 12px; } /* botão na direita */
+
+.carrossel-btn:hover {
+  background: rgba(197, 157, 95, 0.2);
+}
+/* ---------- SERVIÇOS ---------- */
+.servicos-grade {
+  display: flex; /* itens em linha */
+  flex-wrap: wrap; /* quebra de linha */
+  justify-content: center;
+  gap: 10px;
+  list-style: none; /* retira os pontos nos topicos */
+  padding: 0; /* remove o espaço padrao q o navegador cria */
+  margin: 0 auto; /* AUTO centraliza */
+  max-width: 600px; /* limita o tamanho horizontal*/
+}
+
+.servico-item {
+  border: 1px solid rgba(197, 157, 95, 0.25); /* borda em volta */
+  border-radius: 8px;
+  padding: 12px 22px; /* V/H */
+  font-size: 13px;
+  font-weight: 700; /* NEGRITO */
+  letter-spacing: 1.5px;
+  text-transform: uppercase; /* MAIÚSCULA */
+  color: #aaa;
+  transition: all 0.3s; /* animação de 0.3s */
+}
+
+.servico-item:hover {
+  border-color: #c59d5f; /*cor da BORDA no zoom */
+  color: #c59d5f; /*cor da LETRA no zoom */
+}
+
+/* ---------- HORÁRIOS ---------- */
+.horarios-grade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none; /* retira os pontos nos topicos */
+  padding: 0;
+}
+
+.horario-card {
+  background: #111;
+  border: 1px solid rgba(197, 157, 95, 0.2);
+  border-radius: 12px;
+  padding: 22px 36px; /* Tamanho V/H */
+  min-width: 150px; /* tamanho min */
+  transition: border-color 0.3s;
+}
+
+.horario-card:hover {
+  border-color: rgba(197, 157, 95, 0.6);
+}
+
+.horario-card .dia {
+  font-size: 15px;
+  color: #c59d5f;
+  letter-spacing: 2.5px;
+  text-transform: uppercase; /* MAIÚSCULA */
+  font-weight: 700; /* NEGRITO */
+}
+
+.horario-card .hora {
+  font-size: 20px;
+  color: #ccc;
+  margin: 0;
+  line-height: 1.7; /* espaçamento entre linhas */
+}
+
+/* ---------- LOCALIZAÇÃO ---------- */
+.endereco-texto {
+  color: #666;
+  font-size: 13px;
+  margin: 0 auto 24px; /* topo = 0, direita/esquerda = auto, baixo = 24 */
+  letter-spacing: 0.5px; /* espaçamento entre letras */
+}
+
+.mapa-google {
+  width: 90%;
+  max-width: 560px; /* horizontal */
+  margin: 0 auto 28px; /* AUTO centraliza, baixo = 28px */
+  border-radius: 14px;
+  overflow: hidden; /* permite q o mapa fique  dentro das configurações */
+  border: 1px solid rgba(197, 157, 95, 0.2);
+}
+
+.mapa-google iframe {
+  display: block; /* evita pequenos espaços indesejados ao redor do iframe */
+  width: 100%; /* ocupe 100% da largura do elemento pai */
+  height: 280px; /* altura */
+  border: 0; /* remove qualquer borda do iframe */
+}
+
+
+
+/* ---------- MEDIA QUERY ---------- */
+@media (max-width: 600px) {
+  .slogan-titulo { font-size: 30px; }
+  .logo { font-size: 44px; }
+  .titulos { font-size: 24px; }
+}

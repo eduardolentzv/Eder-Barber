@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="creator" content="Eduardo Lentz">
+    <meta name="description" content="Site da Barbearia Eder Barber">
+    <title>Eder Barber — Inicio</title>
+    <link rel="icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inicial.css">
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header class="menu">
+      <h1 class="logo">Eder Barber</h1>
+      <nav>
+        <a class="navegacao ativo" href="index.html">Início</a>
+        <a class="navegacao" href="sobre.html">Sobre</a>
+        <a class="navegacao" href="assinaturas.html">Assinaturas</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!----- SLOGAN ----->
+      <section class="slogan">
+        <p class="slogan-tag">SINCE 2019</p>
+        <h2 class="slogan-titulo">Mais que um corte, um momento seu.</h2>
+        <a href="https://wa.me/554891607932" class="botao" target="_blank">Agendar agora</a>
+      </section>
+
+
+      <!----- SERVIÇOS ----->
+      <section class="secao">
+        <h2 class="titulos">Serviços</h2>
+        <ul class="servicos-grade">
+          <li class="servico-item">Cabelo</li>
+          <li class="servico-item">Barba</li>
+          <li class="servico-item">Cabelo e Barba</li>
+          <li class="servico-item">Sobrancelha</li>
+          <li class="servico-item">Pézinho</li>
+          <li class="servico-item">Navalhado</li>
+        </ul>
+      </section>
+
+      <!----- CARROSSEL ----->
+      <section class="secao-carrossel">
+        <h2 class="titulos">Galeria de Fotos</h2>
+
+        <figure class="carrossel-geral">
+          <section class="carrossel">
+            <button id="btnVoltar" class="carrossel-btn volt" aria-label="Anterior">&#8592;</button>
+            <img id="moldura" src="imagens/img1.jpeg" alt="cortes de cabelo">
+            <button id="btnAvancar" class="carrossel-btn prox" aria-label="Próximo">&#8594;</button>
+          </section>
+        </figure>
+        
+      </section>
+
+      <!----- HORÁRIOS ----->
+      <section class="secao">
+        <h2 class="titulos">Horários de Atendimento</h2>
+        <ul class="horarios-grade">
+          <li class="horario-card">
+            <p class="dia">Seg — Sex</p>
+            <p class="hora">14h às 19h</p>
+          </li>
+          <li class="horario-card">
+            <p class="dia">Sábado</p>
+            <p class="hora">08h às 12h</p>
+            <p class="hora">13h às 18h</p>
+          </li>
+        </ul>
+      </section>
+
+      <!----- LOCALIZAÇÃO ----->
+      <section class="secao">
+        <h2 class="titulos">Onde Estamos</h2>
+        <p class="endereco-texto">(48) 99160-7932 — Rod. Gov. Jorge Lacerda, 121 · Universitário · Criciúma, SC</p>
+        <figure class="mapa-google">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.3659091024815!2d-49.404304399999994!3d-28.738490199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952181825b7cf701%3A0xa4164620ea414c7f!2sRod.%20Gov.%20Jorge%20Lacerda%2C%20121%20-%20Universit%C3%A1rio%2C%20Crici%C3%BAma%20-%20SC%2C%2088805-350!5e0!3m2!1spt-BR!2sbr!4v1778441855077!5m2!1spt-BR!2sbr"
+            allowfullscreen
+             loading="lazy"> <!-- carrega o mapa só na hora que o usuario estiver la -->
+          </iframe>
+        </figure>
+        <a href="https://wa.me/554891607932" class="botao" target="_blank">Entrar em Contato</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Eder Barber | Desenvolvido por Eduardo Lentz</p>
+      <p>Rod. Gov. Jorge Lacerda, 121 — Universitário | Criciúma, SC | (48) 99160-7932</p>
+    </footer>
+
+    <a href="https://wa.me/554891607932" class="whatsapp" target="_blank">💬</a>
+
+  </body>
+</html>

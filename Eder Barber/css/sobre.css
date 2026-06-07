@@ -1,0 +1,54 @@
+.historia {
+  max-width: 680px; /* horizontal */
+  margin: 70px auto 80px;
+  padding: 0 24px; /* laterais */
+}
+
+.titulo-sobre {
+  font-family: 'Playfair Display', serif;
+  color: #c59d5f;
+  font-size: 36px;
+  font-weight: 400; /* leve negrito */
+  margin: 0 0 8px; /* baixo */
+  letter-spacing: 1px; /* espaçamento entre letras */
+}
+
+.subtitulo-sobre {
+  color: #555;
+  font-size: 11px;
+  font-weight: 700; /* NEGRITO */
+  letter-spacing: 2.5px; /* espaçamento entre letras */
+  text-transform: uppercase; /* transforma todo o texto em maiúsculas */
+  margin: 0 0 40px; /* baixo */
+}
+
+.historia p {
+  color: #bbb;
+  font-size: 16px;
+  line-height: 1.9; /* Espaçamento entre linhas */
+  margin: 0 0 22px; /* baixo */
+}
+
+blockquote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 22px;
+  color: #c59d5f;
+  border-left: 3px solid #c59d5f;
+  margin: 36px 0;
+  padding: 8px 0 8px 24px;
+}
+
+.chamada {
+  font-family: 'Playfair Display', serif;
+  color: #c59d5f;
+  font-size: 22px;
+  font-weight: 400; /* leve negrito */
+  margin: 40px 0 8px;
+}
+
+@media (max-width: 600px) {
+  .titulo-sobre { font-size: 28px; }
+  blockquote { font-size: 18px; }
+  .historia { margin-top: 40px; } /* retirar a margem entre o cabeçalho e o titulo */
+}
