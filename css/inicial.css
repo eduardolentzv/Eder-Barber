@@ -175,6 +175,5 @@
 /* ---------- MEDIA QUERY ---------- */
 @media (max-width: 600px) {
   .slogan-titulo { font-size: 30px; }
-  .logo { font-size: 44px; }
   .titulos { font-size: 24px; }
 }
