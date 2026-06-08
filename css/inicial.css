@@ -123,7 +123,8 @@
   border: 1px solid rgba(197, 157, 95, 0.2);
   border-radius: 12px;
   padding: 22px 32px; /* Tamanho V/H */
-  min-width: 150px; /* tamanho min */
+  min-width: 150px; /* tamanho min H*/
+  min-height: 120px; /* tamanho min V*/
   transition: border-color 0.3s;
 }
 
