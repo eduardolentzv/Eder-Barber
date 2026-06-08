@@ -111,9 +111,9 @@
 /* ---------- HORÁRIOS ---------- */
 .horarios-grade {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   list-style: none; /* retira os pontos nos topicos */
   padding: 0;
 }
@@ -122,7 +122,7 @@
   background: #111;
   border: 1px solid rgba(197, 157, 95, 0.2);
   border-radius: 12px;
-  padding: 22px 36px; /* Tamanho V/H */
+  padding: 22px 32px; /* Tamanho V/H */
   min-width: 150px; /* tamanho min */
   transition: border-color 0.3s;
 }
