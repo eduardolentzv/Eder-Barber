@@ -113,7 +113,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   list-style: none; /* retira os pontos nos topicos */
   padding: 0;
 }
@@ -123,7 +123,7 @@
   border: 1px solid rgba(197, 157, 95, 0.2);
   border-radius: 12px;
   padding: 22px 32px; /* Tamanho V/H */
-  min-width: 150px; /* tamanho min H*/
+  min-width: 120px; /* tamanho min H*/
   min-height: 120px; /* tamanho min V*/
   transition: border-color 0.3s;
 }
