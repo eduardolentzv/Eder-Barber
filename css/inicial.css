@@ -111,6 +111,7 @@
 /* ---------- HORÁRIOS ---------- */
 .horarios-grade {
   display: flex;
+  margin: 10px;
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
