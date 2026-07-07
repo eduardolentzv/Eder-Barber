@@ -1,6 +1,6 @@
 function abrirWhatsApp(mensagem) {
   const texto = mensagem || 'Olá! Vim pela página da Eder Barber e gostaria de agendar um horário.';
-  const url = 'https://wa.me/554891708561?text=' + encodeURIComponent(texto);
+  const url = 'https://wa.me/554891607932?text=' + encodeURIComponent(texto);
   window.open(url, '_blank');
 }
 
