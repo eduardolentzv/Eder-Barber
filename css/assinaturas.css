@@ -133,6 +133,24 @@
 .faq-item  { padding: 18px 0; border-bottom: 0.5px solid rgba(255,255,255,0.06); }
 .faq-pergunta { font-size: 14px; font-weight: 500; color: var(--light); margin-bottom: 8px; }
 .faq-resposta { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.faq-cta {
+  max-width: 600px;
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.faq-cta-link {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  padding: 0;
+}
+.faq-cta-link:hover { color: var(--gold-light); }
 
 @media (max-width: 640px) {
   .secao-planos,
