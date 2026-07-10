@@ -250,6 +250,42 @@
 .avaliacao-estrelas { color: var(--gold); font-size: 14px; margin-bottom: 10px; }
 .avaliacao-texto    { font-size: 13px; color: var(--muted); line-height: 1.7; margin-bottom: 14px; }
 .avaliacao-autor    { font-size: 12px; font-weight: 500; color: var(--light); }
+.avaliacoes-fonte {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.avaliacoes-cta {
+  margin-top: 20px;
+  background: var(--dark2);
+  border: 0.5px solid rgba(201,168,76,0.25);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.avaliacoes-cta p {
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 440px;
+  line-height: 1.6;
+}
+.avaliacoes-cta-btn {
+  flex-shrink: 0;
+  background: var(--gold);
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 11px 22px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.avaliacoes-cta-btn:hover { background: var(--gold-light); }
 
 /* ── CONTATO ── */
 .painel-localizacao {
