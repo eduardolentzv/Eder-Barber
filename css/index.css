@@ -174,7 +174,7 @@
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-lg);
-  max-width: 720px;
+  max-width: 480px;
   margin: 0 auto;
 }
 .carrossel-track {
@@ -183,7 +183,7 @@
 }
 .carrossel-slide {
   min-width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1 / 1;
   background: var(--dark3);
   border: 0.5px solid rgba(255,255,255,0.06);
   overflow: hidden;
